@@ -2,15 +2,15 @@
 
 A complete **MySQL Database Management System** for managing food ordering, restaurant operations, deliveries, payments, and customer reviews.
 
-This project demonstrates database design, SQL programming, and analytics using MySQL.
+This project demonstrates **database design, SQL programming, and sales analytics** using MySQL.
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 The Food Order Management and Sales Analytics System is designed to manage the complete food ordering process.
 
-It includes:
+### It includes:
 
 - Customer Management
 - Restaurant Management
@@ -25,23 +25,23 @@ It includes:
 
 ---
 
-# 🚀 Features
+## 🚀 Features
 
-- Manage Customers
-- Manage Restaurants
-- Manage Menu Items
-- Place Orders
-- Track Deliveries
-- Record Payments
-- Customer Reviews
-- Sales Analytics
+- ✅ Manage Customers
+- ✅ Manage Restaurants
+- ✅ Manage Menu Items
+- ✅ Place Orders
+- ✅ Track Deliveries
+- ✅ Record Payments
+- ✅ Customer Reviews
+- ✅ Sales Analytics
 
 ---
 
-# 🗄 Database Tables
+## 🗄 Database Tables
 
 | Table | Records |
-|--------|---------|
+|-------|--------:|
 | Customers | 100 |
 | Restaurants | 20 |
 | Categories | 10 |
@@ -55,31 +55,29 @@ It includes:
 
 ---
 
-# 🧱 Database Schema
+## 🧱 Database Schema
 
-The project consists of **10 relational tables** connected using Primary Keys and Foreign Keys.
+The project consists of **10 relational tables** connected using **Primary Keys** and **Foreign Keys**.
 
-Relationships include:
+### Relationships
 
 - Customer → Orders
 - Restaurant → Menu
 - Category → Menu
-- Orders → Order Items
+- Orders → Order_Items
 - Orders → Payments
 - Orders → Deliveries
-- Delivery Partner → Deliveries
+- Delivery_Partners → Deliveries
 - Customer → Reviews
 - Restaurant → Reviews
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
+```text
 Food-Order-Management-and-Sales-Analytics-System
-
 │
-
 ├── SQL
 │   ├── 01_Create_Database.sql
 │   ├── 02_Create_Tables.sql
@@ -98,13 +96,12 @@ Food-Order-Management-and-Sales-Analytics-System
 │   └── ER_Diagram.png
 │
 ├── README.md
-│
 └── LICENSE
 ```
 
 ---
 
-# 💻 Technologies Used
+## 💻 Technologies Used
 
 - MySQL 8
 - MySQL Workbench
@@ -114,47 +111,46 @@ Food-Order-Management-and-Sales-Analytics-System
 
 ---
 
-# 🔑 Database Concepts Used
+## 🔑 Database Concepts Used
 
 - Primary Keys
 - Foreign Keys
 - Constraints
 - AUTO_INCREMENT
 - ENUM
-- Joins
+- JOIN Operations
 - Aggregate Functions
-- Group By
-- Order By
+- GROUP BY
+- ORDER BY
 - Subqueries
 
 ---
 
-# 📊 ER Diagram
+## 📊 ER Diagram
 
 The ER Diagram is available in the **ERDiagram** folder.
 
 ---
 
-# ▶️ How to Run
+## ▶️ How to Run
 
 1. Open MySQL Workbench.
-2. Execute `01_Create_Database.sql`.
-3. Execute `02_Create_Tables.sql`.
-4. Execute all insert scripts in order.
-5. Run SQL queries for testing and analysis.
+2. Run `01_Create_Database.sql`.
+3. Run `02_Create_Tables.sql`.
+4. Execute all insert scripts in sequence.
+5. Run SQL queries to test the database.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Nirmal Kumar T**
 
-GitHub:
-https://github.com/Nirmalkumar003
+GitHub: **https://github.com/Nirmalkumar003**
 
 ---
 
-# ⭐ Future Improvements
+## ⭐ Future Improvements
 
 - Stored Procedures
 - Functions
@@ -166,4 +162,6 @@ https://github.com/Nirmalkumar003
 
 ---
 
-## ⭐ If you like this project, don't forget to Star the repository.
+## ⭐ Support
+
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
